@@ -1,0 +1,20 @@
+{
+  "name": "scs",
+  "version": "1.0.0",
+  "description": "A Google Chrome extension to switch between Soundcloud accounts",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/die/scs.git"
+  },
+  "author": "die",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/die/scs/issues"
+  },
+  "homepage": "https://github.com/die/scs#readme",
+  "devDependencies": {
+    "@eslint/js": "^9.2.0",
+    "eslint": "^9.2.0",
+    "globals": "^15.1.0"
+  }
+}
