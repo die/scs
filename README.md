@@ -11,13 +11,15 @@
 
 ## Usage
 
+> Note: The extension has only been tested in Google Chrome. Compatibility with other browsers may come in the future.
+
 If an account is currently logged in, refreshing the page will automatically add the account to the switcher. Click the **Add Account** button and sign in to another account to add it to the list.
 
-To remove an account, hover next to the username in the switch and click the **x**.
+To remove an account, hover next to the username in the switcher and click the **x**.
 
 ## Debugging
 
-A `scs_cache` exists in local storage for caching account information, such as avatar urls, with oauth cookies stored as `scs_{username}` for each saved account. If there are any issues related to any accounts, you can filter for `scs`, delete the cookies and cache, and add the accounts again.
+A `scs_cache` exists in local storage for caching account information, such as avatar urls, with oauth cookies stored as `scs_{username}` for each saved account. If there are any issues related to any accounts, you can open inspect element, filter for `scs`, delete the cookies and cache, and add the accounts again.
 
 ## Contributing
 
